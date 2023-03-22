@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.1rem;
+    margin: 0;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+}
+
+h3{
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding: 12px 0;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3rem;
+}
+
+.content-container{
+    display: inline-flex;
+    padding: 5% 26%;
+    margin: 0 auto; 
+}
+
+
+/* Image Section */
+
+.perfume-img{
+    width: 270px;
+    height: 400px;
+    border-radius: 10px 0 0 10px;
+    padding: 0 10px 0 0px;
+}
+
+/* Right Section */
+
+.right-content {
+    width: 220px;
+    height: 400px;
+    padding: 0 5px 0 20px;
+}
+
+.main-text{
+    line-height: 1.8;
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+}
+
+/* Price Section */
+.new-price{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 0 auto 20px;
+}
+
+.old-price {
+    font-size: 0.7rem;
+    color: grey;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+
+/* Button */
+
+.cart-btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px 40px 7px 40px;
+    text-decoration: none;
+    background: hsl(158, 36%, 37%);
+    border: none;
+}
+
+.cart-btn:hover {
+    background: hsl(212, 21%, 14%);
+    text-decoration: none;
+}
+
+.cart-icon{
+    color: #ffffff;
+    margin: 0 2px;
+
+}
+
+.add-to-cart-text{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 10px 0 20px;
+    font-size: 0.8rem;
+}
+
+/* Attribution */
+.attribution{
+    padding: 70px 0 0 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.attribution-link{
+    text-decoration: none;
+    color: hsl(228, 12%, 48%);
+}
+
+.attribution-link:hover {
+    color: #0c9c1a;
+    font-weight: 900;
+}
