@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.content-wrapper{
+    padding: 20px;
+}
+
+
+/* Navigation Section */
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 1.9rem;
+    padding: 10px;  
+}
+
+
+/* Perfume Images */
+.perfume-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+
+/* Text Section */
+.text-section{
+    padding: 10px 40px;   
+}
+
+.perfume-h3{
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.perfume-h2{
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: hsl(212, 21%, 14%);
+}
+
+.main-text{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.new-price{
+    font-family: 'fraunces';
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: hsl(158, 36%, 37%);
+}
+
+#old-price {
+    vertical-align: super;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: hsl(228, 12%, 48%);
+    margin-left: 15px;
+}
+
+/* Button Section */
+.cart-icon{
+    margin-right: 8px;
+    color: white;
+}
+
+.add-to-cart-text{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+
+}
+
+.cart-btn{
+    background: hsl(158, 36%, 37%);
+    padding: 5px 30px;
+    border: none;
+}
+
+.cart-btn:hover {
+    background: hsl(212, 21%, 14%);
+    padding: 5px 30px;
+}
+
+/* Attribution */
+.attribution-link{
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+}
+.attribution-link:hover {
+    color: #0c9c1a;
+}
+
+
+.attribution{
+    color: rgb(104, 101, 101);
+    font-size: 0.7rem;
+    margin: 5% 5% 2% 5%;
+    text-align: center;
+}
+
+/* Media Query */
+@media (min-width:767px) {
+    .text-section {
+            padding: 10px 15px;
+    }
+
+    .content-wrapper {
+        padding: 50px; 
+              
+    }
+
+}
+
