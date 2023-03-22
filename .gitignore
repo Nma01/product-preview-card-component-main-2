@@ -16,4 +16,4 @@
 .prettierignore
 
 
-./mobile-version-bootstrap
+/mobile-version-bootstrap
